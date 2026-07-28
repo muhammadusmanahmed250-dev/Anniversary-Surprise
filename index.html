@@ -1,76 +1,132 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Naba ❤️</title>
+<title>For Naba ❤️</title>
 
 <style>
-body {
-    margin:0;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
-    font-family:Arial, sans-serif;
-    text-align:center;
-    color:white;
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(135deg,#ff758c,#ffb199);
+color:white;
+text-align:center;
+overflow-x:hidden;
 }
 
-.box {
-    background:rgba(255,255,255,0.2);
-    padding:40px;
-    border-radius:25px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+.container{
+padding:40px 20px;
 }
 
-h1 {
-    font-size:45px;
+.heart{
+font-size:70px;
+animation:beat 1s infinite;
 }
 
-h2 {
-    font-size:30px;
+@keyframes beat{
+50%{transform:scale(1.2);}
 }
 
-button {
-    padding:15px 30px;
-    border:none;
-    border-radius:30px;
-    background:#ff3366;
-    color:white;
-    font-size:20px;
-    cursor:pointer;
+.card{
+background:rgba(255,255,255,0.2);
+padding:30px;
+border-radius:25px;
+max-width:700px;
+margin:auto;
+box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 
-.heart {
-    font-size:60px;
+h1{
+font-size:42px;
 }
+
+h2{
+font-size:30px;
+}
+
+p{
+font-size:20px;
+line-height:1.8;
+}
+
+.date{
+margin-top:20px;
+font-size:22px;
+}
+
+.heart-float{
+position:fixed;
+bottom:-10px;
+animation:float 6s infinite;
+font-size:25px;
+}
+
+@keyframes float{
+0%{transform:translateY(0);opacity:1;}
+100%{transform:translateY(-100vh);opacity:0;}
+}
+
 </style>
 
 </head>
 
 <body>
 
-<div class="box">
+<div class="container">
 
 <div class="heart">❤️</div>
+
+<div class="card">
 
 <h1>Happy 2nd Nikkah Anniversary</h1>
 
 <h2>My Beautiful Wife Naba ❤️</h2>
 
+<div class="date">
+10 August 2024 💍
+</div>
+
 <p>
-A special surprise is waiting for you...
+My Dear Naba ❤️
 </p>
 
-<button>
-Open My Love ❤️
-</button>
+<p>
+Aaj hamare nikkah ko 2 saal poore ho gaye hain,
+aur in 2 saalon mein tumne meri zindagi ko pyaar,
+khushi aur sukoon se bhar diya hai. 💕
+</p>
 
 <p>
-10 August 2024
+Tum sirf meri wife nahi ho,
+tum meri sabse achhi dost,
+meri khushi aur meri zindagi ka sabse khoobsurat hissa ho.
+❤️
+</p>
+
+<p>
+Allah hum dono ke rishte mein hamesha mohabbat,
+barkat aur khushiyan rakhe. 🤲
+</p>
+
+<p>
+Main hamesha tumhe pyaar, izzat aur khushi dene ki koshish karunga.
+</p>
+
+<h2>
+I Love You Forever Naba ❤️
+</h2>
+
+<p>
+Hamesha tumhara,<br>
+<strong>Muhammad Usman Ahmed 💖</strong>
 </p>
 
 </div>
+
+</div>
+
+<div class="heart-float" style="left:20%;">❤️</div>
+<div class="heart-float" style="left:50%;animation-delay:2s;">💕</div>
+<div class="heart-float" style="left:80%;animation-delay:4s;">❤️</div>
 
 </body>
 </html>
